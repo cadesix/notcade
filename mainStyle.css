@@ -32,7 +32,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
   nav {
     margin: 0;
-    position: relative;
+    position: absolute;
     left: 25%;
     height: 50%;
     width: 50%;
