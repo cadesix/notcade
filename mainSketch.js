@@ -8,18 +8,19 @@ function setup() {
   myCanvas.parent("cadeSmall");
   cade = loadModel('notcadeSmall.obj');
 
-  /*
   if (windowWidth > 1000) {
   var myCanvas = createCanvas(300, 100, WEBGL);
   myCanvas.parent("cadeSmall");
   cade = loadModel('notcadeSmall.obj');
+
   }
+  
   else {
   var myCanvas = createCanvas(300, 200, WEBGL);
   myCanvas.parent("cadeSmall");
   cade = loadModel('notcade.obj');
   }
-*/
+
 
 }
 

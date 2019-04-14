@@ -31,14 +31,14 @@ and (max-device-width: 812px)
 and (-webkit-device-pixel-ratio : 3) {
   nav {
     margin: 0;
-    position: fixed;
+    position: relative;
     left: 25%;
     height: 50%;
     width: 50%;
     bottom: 10%;
     top: 15%;
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
     font-family: Helvetica;
     font-weight: bold;
     word-spacing: 10px;
