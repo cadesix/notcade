@@ -76,9 +76,24 @@
 and (min-device-width : 375px)
 and (max-device-width: 812px)
 and (-webkit-device-pixel-ratio : 3) {
+
     .column {
       flex: 100%;
       max-width: 100%;
+    }
+
+    .column img {
+      margin-top: 4%;
+      max-width: 90%;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2px 2px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 15%;
     }
   }
 
