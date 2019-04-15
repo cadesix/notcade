@@ -4,10 +4,6 @@ let angle = 0;
 
 function setup() {
 
-  var myCanvas = createCanvas(300, 100, WEBGL);
-  myCanvas.parent("cadeSmall");
-  cade = loadModel('notcadeSmall.obj');
-
   if (windowWidth > 1000) {
   var myCanvas = createCanvas(300, 100, WEBGL);
   myCanvas.parent("cadeSmall");
@@ -38,7 +34,7 @@ function draw() {
     rotateY(90 + angle);
     camera(0, 0, 0, 0, 0, 0, 0, 0, 0);
     translate(0, -40, 0);
-  }s
+  }
 
 
   //ambientMaterial(156, 100, 30);
