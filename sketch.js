@@ -11,10 +11,10 @@ function setup() {
 }
 
 function draw() {
-  background(0, 32, 235);
+//  background rgba(0, 32, 235, 0);
   camera(0, 0, -300, 0, 0, 0, 0, 0, 500,);
 
-  if (windowWidth > 750) {
+  if (windowWidth > 1000) {
     rotateY(90 + mouseX/500);
     rotateX(-mouseY/600 - 100)
   }
