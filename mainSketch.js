@@ -7,7 +7,7 @@ function setup() {
   if (windowWidth > 1000) {
   var myCanvas = createCanvas(300, 100, WEBGL);
   myCanvas.parent("cadeSmall");
-  cade = loadModel('notcadeSmall.obj');
+  cade = loadModel('notcade.obj');
 
   }
 
