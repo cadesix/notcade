@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-  background();
+  background rgba(256, 256, 256, 0);
 
   if (windowWidth > 1000) {
     camera(0, 0, -20, 0, 0, 0, 0, 0, 0,);
