@@ -71,8 +71,24 @@ and (-webkit-device-pixel-ratio : 3) {
   #subTitle {
     font-size: 40%;
   }
-}
 
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+  }
+  .imgCenter {
+    position: relative;
+    display: block;
+    margin-left: 15%;
+    width: 100%;
+  }
+
+}
 /*-------*/
 
 a:link {
@@ -139,6 +155,7 @@ p {
   right: 0;
   bottom: 0;
   margin: auto;
+  width: 70%;
 }
 .imgCenter {
   position: relative;
