@@ -24,7 +24,7 @@ function draw() {
 //  background rgba(256, 256, 256, 0);
 
   if (windowWidth > 1000) {
-    camera(0, 0, -20, 0, 0, 0, 0, 0, 0,);
+    camera(0, 0, 0, 0, 0, 0, 0, 0, 0,);
     rotateY(91 + mouseX/2000);
     rotateX(-mouseY/1000)
     translate (0, 0, 0);
