@@ -12,7 +12,7 @@ function setup() {
   }
 
   else {
-  var myCanvas = createCanvas(400, 100, WEBGL);
+  var myCanvas = createCanvas(400, 200, WEBGL);
   myCanvas.parent("cadeSmall");
   cade = loadModel('notcade.obj');
   }
@@ -33,7 +33,7 @@ function draw() {
   else {
     rotateY(90 + angle);
     camera(0, 0, 0, 0, 0, 0, 0, 0, 0);
-    translate(0, -20, 0);
+    translate(0, -30, 0);
   }
 
 

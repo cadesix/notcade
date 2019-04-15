@@ -3,7 +3,7 @@ let angle = 0;
 
 
 function setup() {
-  var myCanvas = createCanvas(1000, 600, WEBGL);
+  var myCanvas = createCanvas(400, 300, WEBGL);
   myCanvas.parent("cade");
 
   cade = loadModel('notcade.obj');
