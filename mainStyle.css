@@ -43,19 +43,41 @@ and (min-device-width : 375px)
 and (max-device-width: 812px)
 and (-webkit-device-pixel-ratio : 3) {
 
-  nav {
-    margin: 0;
-    position: absolute;
-    display: inline;
-    left: 25%;
-    bottom: 20%;
-    top: 15%;
-    text-align: center;
+  .nav {
+    position: relative;
+    min-height: 40px;
     font-size: 36px;
     font-family: Helvetica;
     font-weight: bold;
     word-spacing: 10px;
   }
+  .nav ul {
+    width: 180px;
+    padding: 5px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid 1px blue;
+    background: red;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -90px;
+  }
+  .nav li {
+    display: none;
+    margin: 0;
+  }
+  .nav a {
+    display: block;
+    padding: 5px 5px 5px 32px;
+    text-align: left;
+  }
+  .nav ul:hover {
+    background-image: none;
+  }
+
+
+
 }
 
 a:link {
