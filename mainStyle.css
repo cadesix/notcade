@@ -71,7 +71,7 @@ and (-webkit-device-pixel-ratio : 3) {
     font-size: 400%;
   }
   #subTitle {
-    font-size: 100%;
+    font-size: 40%;
   }
 }
 
@@ -118,6 +118,7 @@ p {
 #subTitle {
   font-style: italic;
   margin-right: 30%;
+  font-size: 100%;
 }
 #smallTitle {
   font-style: italic;
