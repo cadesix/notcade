@@ -14,7 +14,8 @@
 
 nav {
   margin: 0;
-  position: fixed;
+  position: absolute;
+  display: inline-block;
   left: 25%;
   height: 50%;
   width: 50%;
