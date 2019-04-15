@@ -58,8 +58,6 @@ and (-webkit-device-pixel-ratio : 3) {
   }
 
   #logo {
-    display: block;
-    position: absolute;
     margin-top: 0;
     margin-bottom: 15%;
   }
