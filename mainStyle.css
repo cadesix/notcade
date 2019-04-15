@@ -6,10 +6,12 @@
   -ms-transform: translate(-50%);
   transform: translate(-50%);
 }
+
 #cadeSmall {
   display: block;
-  margin-bottom: 10%;
+  margin-bottom: 50%;
 }
+
 p {
   font-size: 24px;
   font-weight: normal;
@@ -60,7 +62,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
   #cadeSmall {
     display: block;
-    margin-top: 1%;
+    margin-top: 0;
     margin-bottom: 15%;
   }
 
@@ -102,7 +104,7 @@ body {
 /* STYLE FOR PROJECT PAGES */
 
 #project {
-  margin-top: 10%;
+  margin-top: 2%;
   display: block;
   position: absolute;
   margin-left: 5%;
