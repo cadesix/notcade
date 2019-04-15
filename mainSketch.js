@@ -12,7 +12,7 @@ function setup() {
   }
 
   else {
-  var myCanvas = createCanvas(300, 100, WEBGL);
+  var myCanvas = createCanvas(400, 100, WEBGL);
   myCanvas.parent("cadeSmall");
   cade = loadModel('notcade.obj');
   }
