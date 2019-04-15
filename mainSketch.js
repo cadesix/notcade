@@ -12,7 +12,7 @@ function setup() {
   }
 
   else {
-  var myCanvas = createCanvas(300, 200, WEBGL);
+  var myCanvas = createCanvas(300, 100, WEBGL);
   myCanvas.parent("cadeSmall");
   cade = loadModel('notcade.obj');
   }
@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-  background(256, 256, 256);
+  background();
 
   if (windowWidth > 1000) {
     camera(0, 0, -20, 0, 0, 0, 0, 0, 0,);
