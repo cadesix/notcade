@@ -33,7 +33,7 @@ function draw() {
   else {
     rotateY(90 + angle);
     camera(0, 0, 0, 0, 0, 0, 0, 0, 0);
-    translate(0, -40, 0);
+    translate(0, 0, 0);
   }
 
 
