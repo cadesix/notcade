@@ -67,3 +67,32 @@ a:active {
   color: blue;
   text-decoration: none;
 }
+
+body {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+/* STYLE FOR PROJECT PAGES */
+
+#titleText {
+  font-style: italic;
+  font-size: 48px;
+}
+
+#video {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+#vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    border: 0;
+}
