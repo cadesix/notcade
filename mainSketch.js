@@ -27,7 +27,7 @@ function draw() {
     camera(0, 0, 0, 0, 0, 0, 0, 0, 0,);
     rotateY(91 + mouseX/2000);
     rotateX(-mouseY/1000)
-    translate (0, 0, 0);
+    translate (0, -30, 0);
   }
 
   else {
