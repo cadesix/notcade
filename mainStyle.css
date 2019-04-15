@@ -12,19 +12,29 @@
   margin-bottom: 3%;
 }
 
-nav {
+.nav {
+  position: relative;
+  margin: 20px 0;
+}
+.nav ul {
   margin: 0;
-  position: absolute;
-  display: inline-block;
-  left: 25%;
-  height: 50%;
-  width: 50%;
-  bottom: 10%;
-  top: 15%;
+  padding: 0;
   text-align: center;
-  font-family: Helvetica;
-  font-weight: bold;
-  word-spacing: 10px;
+}
+.nav li {
+  margin: 0 5px 10px 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+.nav a {
+  padding: 3px 12px;
+  text-decoration: none;
+  color: blue;
+  line-height: 100%;
+}
+.nav a:hover {
+  color: #000000;
 }
 
 @media only screen
@@ -58,9 +68,9 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: blue;
   text-decoration: none;
-  background: blue;
+  background: yellow;
 }
 
 a:active {
@@ -76,9 +86,22 @@ body {
 
 /* STYLE FOR PROJECT PAGES */
 
+#project {
+  margin-top: 10%;
+  display: block;
+  position: absolute;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: black;
+}
+
 #titleText {
   font-style: italic;
   font-size: 48px;
+}
+
+#subTitle {
+  font-style: italic;
 }
 
 #video {
