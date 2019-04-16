@@ -13,7 +13,7 @@ function setup() {
 
   else {
   var myCanvas = createCanvas(400, 200, WEBGL);
-  myCanvas.parent("cadeSmall");
+  myCanvas.parent("logo");
   cade = loadModel('notcade.obj');
   }
 
