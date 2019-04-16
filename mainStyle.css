@@ -50,7 +50,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
   .nav {
     position: relative;
-    margin-top: 10%;
+    margin-top: 20%;
     min-height: 40px;
     font-size: 36px;
     font-family: Helvetica;
@@ -59,7 +59,7 @@ and (-webkit-device-pixel-ratio : 3) {
   }
 
   #logo {
-    margin-top: -10%;
+    margin-top: -20%;
     display: block;
   }
 
