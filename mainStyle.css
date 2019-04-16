@@ -11,7 +11,7 @@ body {
   font-weight: bold;
   color: blue;
 }
-#cadeSmall {
+#logo {
   display: block;
 }
 .nav {
@@ -57,7 +57,7 @@ and (-webkit-device-pixel-ratio : 3) {
   }
 
   #logo {
-    margin-top: -4%;
+    /*margin-top: -4%;*/
     margin-bottom: 15%;
   }
 
