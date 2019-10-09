@@ -11,6 +11,12 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.contact {
+  font-family: Helvetica;
+  color: white;
+  margin-top: 100px;
+}
+
 #ig {
   margin: 0;
   position: absolute;
